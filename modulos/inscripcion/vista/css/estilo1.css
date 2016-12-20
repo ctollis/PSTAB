@@ -1,0 +1,143 @@
+fieldset { 
+margin: auto;
+width: 915px; 
+height:170px;
+border: solid  3px; 
+background-color: #FBF8EF; 
+padding: 20px; 
+} 
+
+body {
+  width:100%; 
+  margin:auto; 
+  min-height:300px;
+  min-width:900px;
+
+  font-family: Arial;
+}
+input:focus {
+  border: 1px solid #000;
+  background: ;
+}
+select:focus {
+  border: 1px solid #000;
+  background: ;
+}
+#contenedor1{
+	padding:20px;
+
+}
+#picture1 {
+
+		float:left;
+		margin-left: 10px;
+	}
+#picture2 {
+
+		float:left;
+		margin-left: 20px;
+	}	
+
+	}
+		#contenedor2{
+	padding:20px;
+}
+#picture3 {
+    
+		float:left;
+		margin-left:230px;
+	
+	}
+#picture4 {
+   
+		float:left;
+		margin-left: 100px;
+	
+	}
+	
+	
+	
+	
+	
+			
+#picture5 {
+    		float:left;
+
+		font-size:0.8em;
+		color: #DF3A01;
+
+	}
+	
+.button1{
+	background: #DF3A01;
+	color:#FFFFFF;
+	display:inline-block;
+	font-size:1.20em;
+	margin: 10px;
+	padding:10px 0px;
+	text-align: center;
+	width:200px;
+	text-decoration:none;
+	}
+.button2{
+	background: #DF3A01;
+	color:#FFFFFF;
+	display:inline-block;
+	font-size:1em;
+	margin: 10px;
+	padding:10px 0px;
+	text-align: center;
+	width:200px;
+	text-decoration:none;
+	}
+.formulario1  input[type="radio"],
+.formulario1 input[type="checkbox"]{
+	display:none;
+	
+}
+.formulario1 .radio label,
+.formulario1 .checkbox label {
+	color:#DF3A01;
+	padding:5px 15px 5px 30px;
+	display: inline-block;
+	position: relative;
+	font-size: 1em;
+	border-radius: 3px;
+	cursor: pointer;
+	  -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+.formulario1 .radio label:hover,
+.formulario1.checkbox label:hover{
+	background: rgba(219, 139, 41, 0.8);
+	
+} 
+.formulario1 .radio label:before,
+.formulario1 .checkbox label:before{
+	content: "";
+	width:10px;
+	height:10px;
+	display: inline-block;
+	background:  none;
+	border: 3px solid #DF3A01;
+	border-radius: 50%;
+	position: absolute;
+	left:10px;
+	top:5px;
+	
+}
+.formulario1 .checkbox label:before{
+	border-radius: 3px;
+}
+.formulario1 input[type="radio"]:checked + label,
+.formulario1  input[type="checkbox"]:checked + label{
+	padding:5px 15px;
+	background: #DF3A01;
+	border-radius: 2px;
+	color:#fff;
+}
+.formulario1  input[type="radio"]:checked + label:before,
+.formulario1  input[type="checkbox"]:checked + label:before{
+	display:none;
+	
+}

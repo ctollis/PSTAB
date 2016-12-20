@@ -1,0 +1,289 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background:#fff;
+}
+
+
+#main-header {
+
+  background: #ffd497;
+  color: white;
+  height: 80px;
+  width: 100%;
+} 
+#main-header a {
+    color: #000;
+  }
+ 
+#main-header a img{
+margin-left:10px;
+margin-top: 5px;
+}
+ 
+#logo-header {
+  float: left;
+  padding: 15px 0 0 10px;
+  text-decoration: none;
+}
+.logo_chacao{
+   margin-left:0px;
+}
+  
+  #logo-header .nombre_sitio {
+    display: block;
+    margin-left: 28%;
+    margin-top: -55px;
+    font-weight: 700;
+    font-size: 25px;
+    color: #000;
+    font-family: sans-serif;
+  }
+  
+  #logo-header .nombre_seccion {
+    display: block;
+    margin-left: 28%;
+    font-weight: 300;
+    font-size: 15px;
+    color: #000;
+    font-family: sans-serif;
+  }
+  
+nav {
+  float: right;
+}
+
+nav ul {
+margin: 0;
+padding: 0;
+list-style: none;
+padding-right: 20px;
+color:#000 ;
+}
+
+nav ul li {
+display: inline-block;
+line-height: 80px;
+}
+nav ul li a {
+padding: 0 10px;
+text-decoration: none;
+font-family: sans-serif;
+font-size: 15px;
+color:#000;
+}
+
+#tabla_estadisticas{
+  margin-top: 100px;
+  margin-left: 270px;
+}
+
+
+#bt_cerrar_sesion {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    width: 40%;
+    margin: 0 10px 10px 0;
+    border:  2px solid #ee8347;
+    background-color: #fff;
+    border-radius: 8px 8px 8px 8px;
+}
+
+/*#img .logo{
+  max-width: 50%;
+  height: 4;
+  width: auto/9;
+
+}*/
+
+.form-control {
+  display: block;
+  width: 50%;
+  height: 15px;
+  padding: 6px 12px;
+  font-size: 14px;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ee8347;
+  border-radius: 4px;
+  }
+
+#menu_opciones{
+  margin-top: -315px;
+  margin-left: 255px;
+  text-align: left;
+  width:80%;
+  font-family: sans-serif;
+  font-size: 15px;
+ /* background: red;*/
+ }
+
+  ul, ol {
+    list-style: none;
+  }
+
+#menu_opciones .nav li a{
+    background-color: #fffbf5;
+    color: #000;
+    text-decoration: none;
+    padding: 10px 20px;
+    display:block;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px  #939393;
+    border-color: black;
+}
+
+#menu_opciones .nav li a:hover{
+  background-color: #ee8347;
+}
+
+#menu_opciones .nav > li{
+  float: left;
+}
+
+div#menu {
+  width:15%;
+  margin-top:40px;
+  /*background: red;*/
+  border-color: black;
+}
+
+div#menu ul{
+  list-style: none;
+}
+
+div#menu ul li a{
+   text-decoration: none;
+   color: #000;
+}
+
+div#menu ul li{
+  margin-top:10px;
+  font-family: sans-serif;
+  font-size: 18px;
+  background-color:#fffbf5;
+  width: 110%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  border-radius: 0px 5px 5px 0px;
+  box-shadow: 5px 0px 10px #939393;
+  -webkit-transition: padding-left 0.5s;
+  border-color: black;
+
+}
+
+div#menu ul li:hover{
+  padding-left: 30px;
+}
+#estadistica{
+  margin-top: 120px;
+  margin-left: 280px;
+}
+#edad_sexo {
+  text-align: center;
+}
+
+#estadistica1 {
+  border-color:#ee8347; 
+}
+#estadistica1 td {
+  border-bottom-width:0px;
+  border-left-width:0px;
+  border-right-width:0px;
+  border-top-width:0px; 
+}
+#ingresos {
+  border-color:#ee8347; 
+}
+
+#ingresos td {
+  border-bottom-width:0px;
+  border-left-width:0px;
+  border-right-width:0px;
+  border-top-width:0px; 
+}
+
+#datos_esta{
+  margin-top: 100px;
+  margin-left: 270px;
+}
+
+#asistencias_tabla{
+  margin-top: 35px;
+  margin-left:270px;
+}
+
+#asistencias_tabla td {
+  border-bottom-width:0px;
+  border-left-width:0px;
+  border-right-width:0px;
+  border-top-width:0px; 
+}
+
+#matricula{
+  margin-top: -180px;
+  margin-left: 595px;
+}
+
+
+#matricula td {
+  border-bottom-width:0px;
+  border-left-width:0px;
+  border-right-width:0px;
+  border-top-width:0px; 
+}
+
+#repitientes{
+  margin-top: 20px;
+  margin-left: 595px;
+}
+
+
+#repitientes td {
+  border-bottom-width:0px;
+  border-left-width:0px;
+  border-right-width:0px;
+  border-top-width:0px; 
+}
+
+#clasificacion{
+  margin-top: 20px;
+  margin-left: 595px;
+}
+
+#clasificacion td {
+  border-bottom-width:0px;
+  border-left-width:0px;
+  border-right-width:0px;
+  border-top-width:0px; 
+}
+
+#ingreso{
+   margin-top: 20px;
+  margin-left: 595px;
+}
+#ingreso td {
+  border-bottom-width:0px;
+  border-left-width:0px;
+  border-right-width:0px;
+  border-top-width:0px; 
+}
+
+#egreso{
+   margin-top: 20px;
+  margin-left: 595px;
+}
+#egreso td {
+  border-bottom-width:0px;
+  border-left-width:0px;
+  border-right-width:0px;
+  border-top-width:0px; 
+}
